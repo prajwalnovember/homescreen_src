@@ -135,8 +135,8 @@ public class HomeScreen {
 	//Glucose Sensor
 			if(component.equals(Constants.COMPONENT_GLUCOSE_SENSOR)){
 				if(status){ // All is well
-					lblNeedleStatus.setText("OK");
-					lblNeedleStatus.setForeground(Display.getDefault().getSystemColor(SWT.COLOR_GREEN));
+					lblGlucoseSensorstatus.setText("OK");
+					lblGlucoseSensorstatus.setForeground(Display.getDefault().getSystemColor(SWT.COLOR_GREEN));
 				}else{
 					lblGlucoseSensorstatus.setText("FAULTY");
 					lblGlucoseSensorstatus.setForeground(Display.getDefault().getSystemColor(SWT.COLOR_DARK_RED));	
