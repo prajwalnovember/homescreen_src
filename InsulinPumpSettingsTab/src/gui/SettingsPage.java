@@ -19,6 +19,7 @@ public class SettingsPage {
 	private Text text_2;
 	private Text text_3;
 	private Text text_4;
+	private Text text_5;
 
 	/**
 	 * Launch the application.
